@@ -1,0 +1,11 @@
+@import './variables.scss';
+
+@mixin media-screen($device){
+    @if map-has-key($breakpoints, $device){
+        @media #{inspect(map-get($breakpoints, $device))}{
+            @content
+        }
+    }@else{
+        @error 'error'
+    }
+}

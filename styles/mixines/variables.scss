@@ -1,0 +1,15 @@
+$smartphone: 640px;
+$tablet: 800px;
+$desktop: 1024px;
+
+$breakpoints: (
+    "smartphone": (
+        max-width: $smartphone
+    ),
+    "tablet": (
+        max-width: $tablet
+    ),
+    "desktop": (
+        max-width: $desktop
+    )
+)
