@@ -9,10 +9,11 @@ export const Card = () => {
 
   return (
     <section className='card'>
+      hola
       <div className='card__container'>
-        <Logo/>
+        {/* <Logo/>
 
-        <SocialNetworks/>
+        <SocialNetworks/> */}
 
         {/* <Maps/> */}
         
