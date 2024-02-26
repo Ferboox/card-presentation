@@ -1,0 +1,44 @@
+@import '../styles/mixines/containers.scss';
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+html, body {
+    width: 100%;
+    height:100%;
+    font-family: "Open Sans", sans-serif;
+}
+  
+body {
+    margin: 0;
+}
+
+#root{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, #4e9690 -6%, #4c8b92 100%);
+
+    .card{
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+    
+    
+        &__container{
+            width: 50%;
+            min-height: 6em;
+            position: absolute;
+            border-radius: 0.5em;
+            padding: 0.5em 1em;
+            background: rgba(196, 196, 196, 0.177);
+
+            @include media-screen(smartphone){
+                width: 90%;
+                height: 95%;
+                background: transparent;
+            }
+        }
+    }
+}
+
