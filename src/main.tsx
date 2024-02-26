@@ -4,6 +4,7 @@ import { Card } from './Card.tsx'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <Card />
-  </React.StrictMode>,
+    <p>Hola</p>
+    {/* <Card /> */}
+  </React.StrictMode>
 )
