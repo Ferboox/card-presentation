@@ -15,15 +15,10 @@ export const SocialNetworks = () => {
             <img className="social_networks__logo--web" src="/src/assets/web.png" alt="" />
             <p className='social_networks__logo__text'>Página web</p>
         </a>
-        {/* <div>
-            <a href="" className="social_networks__logo">
-                <img className="social_networks__logo--web" src="/src/assets/web.png" alt="" />
-                <p className='social_networks__logo__text'>¿Cómo llegar?</p>
-            </a>
-            <div>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4395.039625821763!2d-100.98439081513345!3d22.134626512984024!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842a98a75b1d0ac1%3A0xcd695b8390b329d!2sLlantera%20Pelayo%20Plaza%20Fiesta!5e0!3m2!1ses-419!2smx!4v1707611222442!5m2!1ses-419!2smx" width="400" height="300" loading="lazy"></iframe>
-            </div>
-        </div> */}
+        <a href="https://www.google.com/maps/place/Llantera+Pelayo+Plaza+Fiesta,+Av+Himno+Nacional+4180,+Himno+Nacional+1ra+Secc,+78280+San+Luis+Potos%C3%AD,+S.L.P./@22.135483,-100.981232,14z/data=!4m6!3m5!1s0x842a98a75b1d0ac1:0xcd695b8390b329d!8m2!3d22.1354833!4d-100.9812324!16s%2Fg%2F1tf8td_t?hl=es-419&gl=MX" className="social_networks__logo">
+            <img className="social_networks__logo--maps" src="/src/assets/maps.png" alt="" />
+            <p className='social_networks__logo__text'>¿Cómo llegar?</p>
+        </a>
         
     </div>
   )

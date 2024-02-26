@@ -15,7 +15,7 @@ export const Card = () => {
 
         <SocialNetworks/>
 
-        <Maps/>
+        {/* <Maps/> */}
         
       </div>
     </section>
