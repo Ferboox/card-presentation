@@ -1,6 +1,5 @@
 // import { useState } from 'react';
 import { Logo } from './components/Logo';
-import { Maps } from './components/Maps';
 import { SocialNetworks } from './components/SocialNetworks';
 import './global.css'
 
